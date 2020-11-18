@@ -589,6 +589,24 @@ body {
   }
 }
 
+@media (max-width: 2500px) {
+  .header__arrow__blue {
+    left: 35vw;
+  }
+}
+
+@media (max-width: 2300px) {
+  .header__arrow__blue {
+    left: 30vw;
+  }
+}
+
+@media (max-width: 2000px) {
+  .header__arrow__blue {
+    left: 25vw;
+  }
+}
+
 @media (min-width: 1530px) {
   .target__bg {
     width: 90%;
