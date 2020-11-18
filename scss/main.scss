@@ -139,7 +139,7 @@ body {
 
 .logo {
   position: absolute;
-  left: -5vw;
+  left: 5vw;
   top: 50%;
   margin-top: -40px;
 
@@ -159,6 +159,10 @@ body {
 .intro {
   position: relative;
   padding-top: 26px;
+
+  .container {
+    max-width: 1050px;
+  }
 
   .slick-slide {
     outline: none;
@@ -614,6 +618,12 @@ body {
   }
 }
 
+@media (max-width: 1530px) {
+  .intro__bg__arrow {
+    display: none;
+  }
+}
+
 @media (max-width: $tablet) {
   .header__suptitle {
     font-size: 24px;
@@ -641,10 +651,17 @@ body {
   }
 
   .logo {
-    left: 0;
+    // display: none;
+    top: 60px;
+    left: 5vw;
 
     &--footer {
       display: none;
+    }
+
+    img {
+      width: 49.6px;
+      height: 27px;
     }
   }
 
@@ -760,6 +777,7 @@ body {
   .logo {
     // display: none;
     top: 60px;
+    left: 5vw;
 
     img {
       width: 49.6px;
